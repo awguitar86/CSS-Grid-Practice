@@ -9,7 +9,7 @@ class App extends Component {
 
           <header className="header">HEADER</header>
 
-          <div className="hero">HERO</div>
+          <div className="hero"></div>
 
           <div className="body">
               <div className="item item1">1</div>
