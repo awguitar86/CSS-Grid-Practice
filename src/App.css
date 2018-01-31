@@ -15,11 +15,13 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 18fr 20fr 1fr;
+  grid-template-rows: 2fr 15fr 20fr 1fr;
+  justify-items: center;
   width: 100vw;
 }
 
 .header {
+  width: 100vw;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -28,32 +30,38 @@
 }
 
 .hero {
+  width: 60vw;
+  height: 30vw;
+  margin-top: 20px;
   display: grid;
-  justify-content: center;
-  align-items: center;
   font-size: 35px;
   background-color: var(--litegrey);
   background-image: url('./images/LahnasChocolateBox.jpg');
   background-size: 100%;
-  background-position-y: -300px;
+  background-position-y: -100px;
   background-repeat: no-repeat;
 }
 
 .body {
+  width: 60vw;
   display: grid;
+  justify-items: center;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 5fr));
+  margin: 10px;
 }
 
 .item{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 390px;
+  height: auto;
   font-size: 32px;
   background-color: var(--blue);
+  background-image: url('./images/BoxOfChocolateBerries.jpg');
+  background-size: 100%;
 }
 
 .footer {
+  width: 100vw;
   display: grid;
   justify-content: center;
   align-items: center;
